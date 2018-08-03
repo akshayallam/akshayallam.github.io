@@ -60,5 +60,6 @@ html{
 }
 
 .picture{
-	padding-top: 20%;
+	width: auto;
+	height: 200px;
 }
