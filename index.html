@@ -1,120 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Akshay Allam</title>
-	<link rel="icon" type="image/png" href="/favicon.png">
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", shrink-to-fit=no">
+    <title>Akshay Allam</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-	  
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-      	<li><a href="https://github.com/akshayallam"><i class="fab fa-github fa-2x"></i></a></li>
-      	<li><a href="https://www.linkedin.com/in/akshayallam"><i class="fab fa-linkedin fa-2x"></i></a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="resume"><a href="">Resume</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="current_resume.pdf">Resume</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#masthead">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-<div class="container">
-	<div class="jumbotron">
-		<h1 class="name">Akshay Allam</h1>
-		<br>
-		<p>I am currently a sophmore at the University of California, Irvine majoring in computer science. I am interested in growing my skillset and gaining experience by seeking internships and job opportunities in software development.
-		</p>
-		<p>Contact: akshayallam@gmail.com</p>
-	</div>
-	<div class="row">
-		<div class="col-lg-4 col-sm-6">
-			<div class="thumbnail">
-			<img style="height: 227px; width: 275px;" src="/favicon.png">
-			</div>
-		</div>
-		<div class="col-lg-2 col-sm-6">
-			<div class="thumbnail">
-			<h1><i class="fas fa-arrow-left fa-4x padder"></i></h1>
-			</div>
-		</div>
-		<div class="col-lg-6 col-sm-6">
-			<div class="thumbnail">
-			<h3 class="padder">Things I enjoying spending time on: </h3>
-			<ul>
-				<li>Family and Friends</li>
-				<li>Food</li>
-				<li>Traveling</li>
-				<li>Techonlogy</li>
-				<li>Basketball</li>
-				<li>Music & Dance</li>
-				<li>Reddit</li>
-				<li>Gym</li>
-			</ul>
-			</div>
-		</div>
-		<div class="col-lg-12 col-sm-12">
-			<div class="thumbnail">
-			<h3 class="project">Awards </h3>
-			<ul>
-				<li>Diro Text
-					<ul>
-						<li>A web server built to allow users to receive navigation directions via SMS without WiFi or mobile data</li>
-						<li>Built with Python, Flask, HTML5, CSS3, Twilio API, Google Directions API, HERE-Routing API</li>
-						<li>Awarded “Best Use of Twilio API” at the UC Riverside Citrus Hack</li>
-						<li>https://github.com/hbdch/DiroText</li>
-					</ul>
-				</li>
-			</ul>
-			</div>
-		</div>
-		<div class="col-lg-6 col-sm-6">
-			<div class="thumbnail">
-			<h3 class="padder">Skills </h3>
-			<ul>
-				<li>Python</li>
-				<li>Django</li>
-				<li>PostgreSQL</li>
-				<li>REST-APIs</li>
-				<li>HTML5</li>
-				<li>CSS3</li>
-				<li>Javascript</li>
-				<li>Microsoft Office</li>
-			</ul>
-			</div>
-		</div>
-		<div class="col-lg-6 col-sm-6">
-			<div class="thumbnail">
-			<h3 class="padder">Coursework </h3>
-			<ul>
-				<li>Introduction to Programming (Python)</li>
-				<li>Programming with Software Libraries (Python)</li>
-				<li>Intermediate Programming (Python)</li>
-				<li>Programming in C/C++ as a Second Language</li>
-				<li>Data Structures and Analysis (C++)</li>
-				<li>Introduction to Software Engineering</li>
-				<li>Boolean Logic and Discrete Structures</li>
-				<li>Discrete Mathematics for Computer Science</li>
-			</ul>
-			</div>
-		</div>
-	</div>
-</div>
-	
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+      <header class="masthead" id="masthead">
+          <div class="row col-lg-12">
+            <div class="name-div text-center">
+              <hr class="name-hr">
+              <h1 class="name-text">AKSHAY ALLAM</h1>
+              <hr class="name-hr">
+            </div>
+          </div>
+          <div class="mx-auto"></div>
+          <img src="/selfie.jpg" class="selfie" alt="Responsive image">
+      </header>
 
+      <section class="about" id="about">
+        <div class="jumbotron">
+          <h1 class="display-4">Hi !</h1>
+          <hr class="about-hr">
+          <p class="lead about-me">
+            I'm a 4th-year, computer science student at UCI. 
+            <br>I like to develop software that can help people at least in the slightest way.
+            <br>In my free time, I enjoy traveling and dabbling with photography. 
+            <br>My way of staying healthy is to workout, play basketball, and try to stay on a healthy diet.
+            <br>For me, spending time with family and friends is always a good moment.
+          </p>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+      <div class="container">
+        <h1 class="display-4 project-display">PROJECTS <a href="https://github.com/akshayallam"><i class="fab fa-github"></i></a>
+        </h1>
+        <hr class="projects-hr">
+        <div class="row">
+          <div class="col-md-6 col-lg-6 fix-pad">
+              <div class="card">
+                <h1 class="project-icon text-center"> <a class="project-link" href="https://github.com/akshayallam/UCIProfessorRatings"><i class="fas fa-user-tie"></i></a></h1>
+                <hr class="project-hr">
+                  <div class="card-block">
+                      <h3 class="card-title text-center">UCI Professor Ratings</h3>
+                      <p class="card-text lead">A chrome extension that allows students to quickly access their professor's RateMyProfessor page from the school's class schedule page.</p>
+                      <p class="tech">Technologies Used: Javascript</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-6 fix-pad">
+              <div class="card">
+                  <h1 class="project-icon text-center"> <a class="project-link" href="https://github.com/akshayallam/DiroText"><i class="fas fa-route"></i></a></h1>
+                  <hr class="project-hr">
+                  <div class="card-block">
+                      <h3 class="card-title text-center">DiroText</h3>
+                      <p class="card-text lead">A web server that allows users to receive navigation directions via sms without wifi or mobile data. (Award Winner at Hackathon)</p>
+                      <p class="tech">Technologies Used: Python, Flask, Twilio API, Google & HERE Direction APIs</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-6 fix-pad">
+              <div class="card">
+                <h1 class="project-icon text-center"> <a class="project-link" href="https://github.com/akshayallam/fastscan.ai"><i class="fas fa-allergies"></i></a></h1>
+                <hr class="project-hr">
+                  <div class="card-block">
+                      <h3 class="card-title text-center">fastscan.ai</h3>
+                      <p class="card-text lead">A quick and easy way to instantly diagnose all stages of skin cancer with the snap of a photo.</p>
+                      <p class="tech">Technologies Used: Python, fast.ai, Paperspace, Flask, Twilio API</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6 col-lg-6 fix-pad">
+              <div class="card">
+                <h1 class="project-icon text-center"> <a class="project-link" href="https://github.com/akshayallam/cs171project"><i class="fas fa-chess"></i></a></h1>
+                <hr class="project-hr">
+                  <div class="card-block">
+                      <h3 class="card-title text-center">Chess AI</h3>
+                      <p class="card-text lead">A checkers game in which the AI never loses. The artificial intelligence was constructed using the minimax algorithm, alpha-beta pruning, and heuristics.</p>
+                      <p class="tech">Technologies Used: Python</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <section id="contact">
+        <div class="contact bg-light text-center" id="contact">
+          <h1 class="display-4 contact-name">CONTACT</h1>
+          <hr class="contact-hr">
+          <span><i class="fas fa-envelope-square contact-icon"></i></span>
+          <p class="lead">akshayallam@gmail.com</p>
+          <span><i class="fas fa-phone-square contact-icon"></i></span>
+          <p class="lead">818-312-0411</p>
+          <span><a href="https://www.linkedin.com/in/akshayallam/"><i class="fab fa-linkedin contact-icon"></i></a></span>
+        </div>
+      </section>
+
+      <footer>
+        <p class="lead copyright">COPYRIGHT &#169 2020</p>
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
 </body>
 </html>
