@@ -11,7 +11,6 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="current_resume.pdf">Resume</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -23,7 +22,7 @@
               <a class="nav-link" href="#masthead">Home</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" target="_blank" href="current_resume.pdf">Resume</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#projects">Projects</a>
@@ -36,27 +35,30 @@
       </nav>
 
       <header class="masthead" id="masthead">
-          <div class="row col-lg-12">
-            <div class="name-div text-center">
+          <div class="row">
+            <div class="name-div col-lg-6 col-md-6 col-sm-8 col-xs-8">
               <hr class="name-hr">
               <h1 class="name-text">AKSHAY ALLAM</h1>
               <hr class="name-hr">
             </div>
           </div>
-          <div class="text-center">
-            <img src="/selfie.jpg" class="selfie" alt="Responsive image">
+          <div class="row">
+            <div class="self-div">
+              <img src="/selfie.jpg" class="selfie" alt="">
+            </div>
           </div>
       </header>
 
-      <section class="about" id="about">
+      <section class="about">
         <div class="jumbotron">
-          <h1 class="display-4">Hi !</h1>
+          <h1 class="display-4 hi">Hi !</h1>
           <hr class="about-hr">
           <p class="lead about-me">
             I'm a 4th-year, computer science student at UCI. 
             <br>I like to develop software that can help people at least in the slightest way.
             <br>In my free time, I enjoy traveling and dabbling with photography. 
-            <br>My way of staying healthy is to workout, play basketball, and try to stay on a healthy diet.
+            <br>My way of staying healthy is to workout, play basketball, 
+            <br>and try to stay on a healthy diet.
           </p>
         </div>
       </section>
@@ -73,7 +75,7 @@
                 <hr class="project-hr">
                   <div class="card-block">
                       <h3 class="card-title text-center">UCI Professor Ratings</h3>
-                      <p class="card-text lead">A chrome extension that allows students to quickly access their professor's RateMyProfessor page from the school's class schedule page. (275+ Users)</p>
+                      <p class="card-text lead">A chrome extension that allows students to quickly access their professor's RateMyProfessor page from the school's class schedule page.</p>
                       <p class="tech">Technologies Used: Javascript</p>
                   </div>
               </div>
@@ -106,7 +108,7 @@
                 <hr class="project-hr">
                   <div class="card-block">
                       <h3 class="card-title text-center">Chess AI</h3>
-                      <p class="card-text lead">A chess game in which the AI never loses. The artificial intelligence was constructed using the minimax algorithm, alpha-beta pruning, and heuristics.</p>
+                      <p class="card-text lead">A checkers game in which the AI never loses. The artificial intelligence was constructed using the minimax algorithm, alpha-beta pruning, and heuristics.</p>
                       <p class="tech">Technologies Used: Python</p>
                   </div>
               </div>
