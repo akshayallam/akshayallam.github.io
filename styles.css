@@ -245,3 +245,7 @@ html{
 .card-text{
     margin-bottom: 10px;
 }
+
+.navbar-toggler{
+    margin: 5px;
+}
