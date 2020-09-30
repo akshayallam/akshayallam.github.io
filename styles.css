@@ -249,3 +249,9 @@ html{
 .navbar-toggler{
     margin: 5px;
 }
+
+@media (max-width: 600px) {
+    .card-block{
+        height: 100%;
+    }
+}
