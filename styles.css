@@ -79,7 +79,6 @@ html{
 }
 
 .selfie{
-    width: auto;
     height: auto;
     border-radius: 50%;
     border: 2px solid whitesmoke;
@@ -253,5 +252,11 @@ html{
 @media (max-width: 600px) {
     .card-block{
         height: 100%;
+    }
+}
+
+@media (max-width: 780px) {
+    .selfie{
+        width: 55%;
     }
 }
